@@ -1,0 +1,33 @@
+# New—Terrain
+
+> New Terrain Consulting is a Glasgow-based AI consultancy that helps growing businesses build AI capability without the cost, risk, or complexity of building an internal AI team. We find where AI unlocks growth, build pilot workflows with governance baked in, and run them safely until they're ready to scale.
+
+We work primarily with ambitious mid-market businesses (marketing agencies, professional services, growth-stage firms) that need bespoke AI capability without enterprise budgets or timelines.
+
+## What we do
+
+- **Discover** — work with client teams to identify high-impact AI opportunities, ranked by ROI and feasibility. Output: a clear roadmap and governance plan in 2–4 weeks.
+- **Pilot** — build AI workflows and agentic systems that teams actually use, with human oversight and measurement baked in. Working capability and evidence of delivery in 4–10 weeks.
+- **Scale & Embed** — operate the AI capability with full governance, monitoring, and support, hardening it for scale. Hand over to the client when proven.
+
+We specialise in workflow automation, knowledge systems, and agentic processes — always with human oversight and governance from day one.
+
+## Track record
+
+A representative engagement with a UK marketing agency produced:
+- 330% faster campaign concept turnaround (1 week → 1.5 days)
+- £75k of upsells and a £510k new business win within three months
+- Quote from MD: "New Terrain has helped us make the biggest transformation in our business to date."
+
+## Contact
+
+- Email: hello@new-terrain.io
+- Address: BECO Building, 58 Kingston St, Glasgow G5 8BP, United Kingdom
+- Book a discovery call: https://calendly.com/neil-new-terrain/30-strategy-call-clone
+
+## Key pages
+
+- [Home](https://new-terrain.io/): Overview of approach and results
+- [Mission](https://new-terrain.io/mission/): What we believe, what we do, what changes when it works
+- [Contact](https://new-terrain.io/contact/): Address, email, discovery call booking
+- [Privacy Policy](https://new-terrain.io/privacy-policy/)
