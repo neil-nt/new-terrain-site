@@ -295,7 +295,7 @@ h3 {
   font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--text-dark);
   margin-bottom: 1.5rem;
 }
 
@@ -595,6 +595,114 @@ h3 {
 }
 
 .footer-bottom nav { display: flex; gap: 1.5rem; }
+
+/* ---- Pill label ---- */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  background: var(--bg-dark);
+  color: var(--text-light);
+  padding: 0.3rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+/* ---- Callout block ---- */
+.callout {
+  background: var(--bg-dark);
+  color: var(--text-light);
+  border-radius: var(--radius);
+  padding: clamp(2rem, 3.5vw, 3rem);
+}
+
+.callout h2 {
+  color: var(--text-light);
+  margin-bottom: 1.25rem;
+  max-width: 28ch;
+}
+
+.callout p {
+  color: var(--text-light-muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 60ch;
+}
+
+/* ---- Callout close section ---- */
+.callout-close {
+  position: relative;
+  background: var(--bg-cream);
+  color: var(--text-dark);
+  padding: clamp(4rem, 7vw, 6rem) 0;
+  overflow: hidden;
+}
+
+.callout-close__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.callout-close__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+}
+
+.callout-close__inner {
+  position: relative;
+  z-index: 1;
+}
+
+.callout-close h2 {
+  color: var(--text-dark);
+  max-width: 22ch;
+  margin-bottom: 1.25rem;
+}
+
+.callout-close p {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 58ch;
+  margin-bottom: 2rem;
+}
+
+/* ---- Carousel ---- */
+.carousel { position: relative; overflow: hidden; }
+
+.carousel__track {
+  display: flex;
+  transition: transform 0.45s ease;
+}
+
+.carousel__slide { min-width: 100%; }
+
+.carousel__dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 2.5rem;
+}
+
+.carousel__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(31, 39, 27, 0.2);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s ease;
+}
+
+.carousel__dot--active,
+.carousel__dot:hover { background: var(--text-dark); }
 
 /* ---- Responsive ---- */
 @media (max-width: 880px) {
