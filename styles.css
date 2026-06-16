@@ -292,7 +292,7 @@ h3 {
 .card__num {
   font-family: var(--font-sans);
   font-size: 0.78rem;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-dark);
