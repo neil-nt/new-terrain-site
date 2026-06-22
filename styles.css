@@ -457,6 +457,19 @@ h3 {
 
 .content__body p:last-child { margin-bottom: 0; }
 
+.content__body ol {
+  padding-left: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.content__body ol li {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: var(--text-dark);
+  margin-bottom: 0.75rem;
+  max-width: 60ch;
+}
+
 .content + .content { padding-top: 0; }
 
 /* ---- Photo block ---- */
