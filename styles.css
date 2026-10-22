@@ -733,6 +733,18 @@ h3 {
 .carousel__dot--active,
 .carousel__dot:hover { background: var(--text-dark); }
 
+/* ---- Research page ---- */
+.hero--plain { min-height: auto; }
+.hero .eyebrow { color: var(--accent); }
+
+.text-link { border-bottom: 1px solid currentColor; }
+.text-link:hover { opacity: 0.7; }
+
+.person { display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1.4rem; }
+.person picture { display: block; width: 104px; height: 104px; flex-shrink: 0; }
+.person img { width: 104px; height: 104px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.person__body p:last-child { margin-bottom: 0; }
+
 /* ---- Responsive ---- */
 @media (max-width: 880px) {
   .approach__intro { grid-template-columns: 1fr; }
@@ -751,4 +763,6 @@ h3 {
   .brand img { height: 22px; }
   .nav { font-size: 0.9rem; gap: 1rem; }
   .site-footer .footer-grid { grid-template-columns: 1fr; }
+  .person { flex-direction: column; }
+  .person picture, .person img { width: 88px; height: 88px; }
 }
