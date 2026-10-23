@@ -734,7 +734,6 @@ h3 {
 .carousel__dot:hover { background: var(--text-dark); }
 
 /* ---- Research page ---- */
-.hero--plain { min-height: auto; }
 .hero .eyebrow { color: var(--accent); }
 
 .text-link { border-bottom: 1px solid currentColor; }
